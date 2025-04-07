@@ -1,0 +1,26 @@
+name: angular-migrator
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - python-dotenv
+  - requests
+  - chromadb
+  - pip:
+    - anthropic
+    - tqdm==4.66.1
+    - requests==2.31.0
+    - pyyaml==6.0.1
+    - jsonschema==4.20.0
+    - coloredlogs==15.0.1
+    - rich==13.7.0
+    - gradio
+    - langchain
+    - langchain-core
+    - langchain-text-splitters
+    - langchain-openai
+    - langchain-chroma
+    - langchain-community
+    - faiss-cpu
